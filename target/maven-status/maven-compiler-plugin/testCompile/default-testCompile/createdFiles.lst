@@ -1,0 +1,9 @@
+opencart\tests\LoginWithWrongCredentialsTest.class
+opencart\tests\SearchCommonDataTest.class
+opencart\tests\SearchPageTest.class
+opencart\tests\ProductInfoPageTest.class
+opencart\tests\AccountsPageTest.class
+opencart\tests\SearchTest.class
+opencart\tests\RegisterPageTest.class
+opencart\base\BaseTest.class
+opencart\tests\LoginPageTest.class

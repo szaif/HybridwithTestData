@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="opencart.tests.AccountsPageTest">
+        <methods>
+          <include name="isLogoutLinkExistTest"/>
+          <include name="accPageHeadersCountTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="accountsPageTitleTest"/>
+          <include name="accPageHeadersTest"/>
+          <include name="accPageSetup"/>
+        </methods>
+      </class> <!-- opencart.tests.AccountsPageTest -->
+      <class name="opencart.base.BaseTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- opencart.base.BaseTest -->
+      <class name="opencart.tests.LoginWithWrongCredentialsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginWithWrongCredentialsTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- opencart.tests.LoginWithWrongCredentialsTest -->
+      <class name="opencart.tests.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="ForgotPwdLinkExistTest"/>
+          <include name="loginPageTitleTest"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="loginPageURLTest"/>
+        </methods>
+      </class> <!-- opencart.tests.LoginPageTest -->
+      <class name="opencart.tests.SearchTest">
+        <methods>
+          <include name="searchProductTest"/>
+          <include name="setUp"/>
+          <include name="productImagesTest"/>
+          <include name="searchSetup"/>
+          <include name="tearDown"/>
+          <include name="selectProductTest"/>
+          <include name="searchPageTitleTest"/>
+        </methods>
+      </class> <!-- opencart.tests.SearchTest -->
+      <class name="opencart.tests.SearchCommonDataTest">
+        <methods>
+          <include name="searchPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="productImagesTest"/>
+          <include name="searchSetup"/>
+          <include name="tearDown"/>
+          <include name="searchProductResultCountTest"/>
+          <include name="selectProductTest"/>
+        </methods>
+      </class> <!-- opencart.tests.SearchCommonDataTest -->
+      <class name="opencart.tests.ProductInfoPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="productInfoTest"/>
+          <include name="tearDown"/>
+          <include name="productInfoPageSetup"/>
+        </methods>
+      </class> <!-- opencart.tests.ProductInfoPageTest -->
+      <class name="opencart.tests.RegisterPageTest">
+        <methods>
+          <include name="regSetUp"/>
+          <include name="userRegisterTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- opencart.tests.RegisterPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
